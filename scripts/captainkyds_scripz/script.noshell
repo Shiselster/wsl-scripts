@@ -1,4 +1,4 @@
-echo "color='tput setaf 5; tput bold" >> /usr/local/bin/upgrade
+echo 'color="tput setaf 5; tput bold"' >> /usr/local/bin/upgrade
 echo "reset=tput sgr0"  >> /usr/local/bin/upgrade
 echo '$(color); echo "time to clean out old apt files and upgrade. Here we go."; $(reset)' >> /usr/local/bin/upgrade
 echo '$(color) echo "Starting the cleaning cycle."; $(reset)'  >> /usr/local/bin/upgrade
